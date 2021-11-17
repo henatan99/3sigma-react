@@ -1,4 +1,6 @@
 import React from 'react';
+import PhoneLoginForm from './phoneLogin';
+import FedaratedIdLoginForm from './fedaratedIdLogin';
 
 const LoginPage = () => (
   <div>
@@ -9,7 +11,7 @@ const LoginPage = () => (
     <p>Or login using</p>
     <FedaratedIdLoginForm />
     <p>Don&apos;t have an account?</p>
-    <button>SIGNUP</button>
+    <button type="button">SIGNUP</button>
   </div>
 );
 

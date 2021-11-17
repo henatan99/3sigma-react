@@ -1,7 +1,9 @@
-import React from "react";
+import React from 'react';
 
 const PhoneLoginForm = () => (
-    <form>
-        <input placeholder="Enter phone number" />
-    </form>
-)
+  <form>
+    <input placeholder="Enter phone number" />
+  </form>
+);
+
+export default PhoneLoginForm;
