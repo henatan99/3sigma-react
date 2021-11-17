@@ -2,11 +2,20 @@
   text-align: center;
 }
 
+/* LoginPage */
+
+.login-page {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  align-items: center;
+}
+
 /* FedaratedIdLoginForm */
 
 .federated-login-form {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-gap: 10px;
 }
 
 .fedarated-login-btn {
@@ -16,5 +25,5 @@
 }
 
 .fedarated-login-img {
-  width: 50px;
+  width: 30%;
 }

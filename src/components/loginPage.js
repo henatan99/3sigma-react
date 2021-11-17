@@ -3,8 +3,7 @@ import PhoneLoginForm from './phoneLogin';
 import FedaratedIdLoginForm from './fedaratedIdLogin';
 
 const LoginPage = () => (
-  <div>
-    <logo />
+  <div className="login-page">
     <h2>Login via phone number</h2>
     <p>We will send you OTP in this phone number</p>
     <PhoneLoginForm />
